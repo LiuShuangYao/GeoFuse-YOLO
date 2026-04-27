@@ -1,2 +1,3 @@
 # GeoFuse-YOLO
 A multimodal walnut detection model using RGB-NIR-Geo data. 
+The project provides a small amount of data (the complete data can only be released with the consent of other members of the fund team). After downloading and unzipping, use DEMGen.py to generate a Geo feature image data folder, then rename this folder to images_depth, and run trainMM.py to verify the correctness of the model. If you want to train your own data, you can use image_registration.py to align other spectral data with RGB, modify the data configuration file, then repeat the previous step to generate Geo feature maps, and run trainMM.py.
